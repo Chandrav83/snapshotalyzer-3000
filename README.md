@@ -14,4 +14,8 @@ e.g.
 
 ## Running
 
-`pipenv run python shotty.py`
+`pipenv run python shotty.py <command> <subcommand> <--project=Project>`
+
+*command* is instances, volumes, or snapshots
+*subcommand* - depends on command
+*project* is optional
